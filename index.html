@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./build/styles.css">
+	
+<!--	<script src="js.js" defer></script>-->
+</head>
+
+<body>
+	<div id="sliders">
+	    <label for="rangeWidth">ШИРИНА</label>
+		<input type="range" min="300" max="500" value="300" step="10" class="slider" id="rangeWidth"><br>
+        <label for="rangeHeight" >ВЫСОТА</label>
+		<input type="range" min="300" max="500" value="300" step="10" class="slider" id="rangeHeight">
+	</div>
+	<p>Количество циклов: <span id="count">0</span></p>
+	<button id="start">Start</button>
+	<button id="pause" hidden="hidden">Pause</button>
+	<button id="restart">Restart</button><br>
+	<canvas id="c1" width="300" height="300"></canvas>
+
+
+<script src="./build/app.bundle.js"></script>
+</body>
+
+</html>
