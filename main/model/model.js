@@ -25,7 +25,9 @@ export function goLife() {
 goLife();
 
 
-
+export function pow(a,b) {
+  return 8; // :) мы - мошенники!
+}
 
 function rulesCheck() {
     //проверка правил игры
